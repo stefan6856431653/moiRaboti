@@ -1,0 +1,596 @@
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none
+}
+button{
+    border-radius: 5px;
+}
+.contanier{
+    width: 960px;
+    margin: 0 auto;
+  
+}
+.box{
+    padding: 50px 70px ;
+}
+#header{
+    position: absolute;
+    padding: 20px 0px;
+    top:20px;
+    width: 100%;
+}
+.logo {
+    float: left;
+    font-size: 50px;
+}
+.logo a{
+    color: #00e0d0;
+}
+.logo img{
+    width: 50px;
+    height: 70px;
+    margin-right: 10px;
+    margin-bottom: -15px;
+}
+.nav{
+    float: right;
+}
+.nav a{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: aliceblue;
+}
+.clearfix:before,
+.clearfix:after{
+    content: " ";
+    display: table;
+}
+#home{
+    height: auto;
+    padding: 230px;
+    text-align: center;
+    background-image: url(img/back.png)    ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color:aliceblue;
+    }
+.nav li{
+    float: left;
+    margin-right: 25px;
+    padding-top: 20px;
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: rgb(0,0,255);
+    font-family: "Roboto";
+    font-weight: 800;
+}
+li a:hover{
+    color: #00e0d0 ;
+}
+
+.nav li:last-child{
+    float: left;
+    margin-right: 0;
+   
+}
+#home h3{
+     font-size: 32px;
+     letter-spacing: 0px;
+     color: rgb(255,255,255);
+     font-family: "Playfair Display";
+     font-weight: 800;
+     text-align: center;
+}
+#home p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+#home button{
+    transition: 0.5s;
+    width: 120px;
+    height: 40px; 
+    color: #00e0d0;
+    border: 2px solid #00e0d0;
+    background: none;
+    cursor: pointer;
+    -webkit-background-size:4px;
+    -moz-background-size:4px;
+    -o-background-size:4px;
+    border-radius: 4px;
+}
+#home button:hover{
+    color: aliceblue;
+    border: 2px solid #fff;
+}
+
+.img-piramida img{
+    width: 240px;
+    height: 230px;
+}
+.img-piramida {
+    float: left;
+    padding-right: 100px;
+    width: auto;
+}
+.story-text{
+    height: auto;
+}
+#story{
+    padding-bottom: 50px;
+    position: relative;
+    
+}
+.story-text h3{
+    margin: 0px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: rgb(65,61,75);
+    font-family: "Playfair Display";
+    font-weight: bold;
+
+}
+.story-text p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: rgb(65,61,75);
+    font-family: "Roboto";
+    font-weight: 300;
+}
+#story button{
+    transition: 0.5s;
+    width: 120px;
+    height: 40px; 
+    color: #00e0d0;
+    border: 2px solid #00e0d0;
+    background: none;
+    cursor: pointer;
+    -webkit-background-size:4px;
+    -moz-background-size:4px;
+    -o-background-size:4px;
+    border-radius: 4px;
+}
+#story button:hover{
+    color: black;
+    border: 2px solid black;
+}
+
+.video{
+    padding: 300px 0px ;
+    height: 550;
+    position: relative;
+    text-align: center;
+    background-image: url(img/video-img.png)    ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color:aliceblue;
+}
+.video h3{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.video img:hover{
+    cursor: pointer;
+    align-content: center;
+}
+.expert {
+    padding: 50px;
+    height: 640px;
+    position: relative;
+    background-image: url(img/background.png)    ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    
+}
+.meet {
+    height: 710px;
+    background-image: url(img/back3.png)    ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    
+}
+
+.expert-block{
+    display: inline;
+    float: left;
+    padding: 10px;
+    width: 300px;
+} 
+.expert-block img{
+    width: 45px;
+    height: 50px;
+} 
+
+.expert h3 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: rgb(65,61,75);
+    font-family: "Playfair Display";
+    font-weight: bold;
+    text-align: center;
+}
+.meet h3 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color:aliceblue;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    text-align: center;
+}
+.expert h4{
+    font-size: 14px;
+letter-spacing: 1px;
+color: rgb(65,61,75);
+font-family: "Roboto";
+font-weight: 800;
+text-align: center;
+}
+.expert p{
+    font-size: 14px;
+letter-spacing: 1px;
+line-height: 22px;
+color: rgb(51,51,51);
+font-family: "Roboto";
+font-weight: 300;
+text-align: center;
+}
+.meet p{
+    font-size: 14px;
+letter-spacing: 1px;
+line-height: 22px;
+color:aliceblue;
+font-family: "Roboto";
+font-weight: 300;
+text-align: center;
+}
+.meet-box{
+    height: 330px;
+    border-bottom: 2px solid #d2d2d2;
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+.meet-boxs{
+    height: 370px;
+}
+.meet h5{
+    font-size: 14px;
+letter-spacing: 1px;
+color: rgb(243,243,243);
+font-family: "Roboto";
+font-weight: 300;
+text-align: center;
+}
+.meet-box h4{
+font-size: 14px;
+letter-spacing: 1px;
+color: rgb(255,255,255);
+font-family: "Roboto";
+font-weight: 800;
+text-align: center;
+}
+.meet-box p{
+font-size: 13px;
+color: #d2d2d2;
+font-family: "Roboto";
+font-weight: 300;
+text-align: center;
+}
+.meet button{
+    transition: 0.5s;
+    width: 120px;
+    height: 40px; 
+    color: #00e0d0;
+    border: 2px solid #00e0d0;
+    background: none;
+    cursor: pointer;
+    -webkit-background-size:4px;
+    -moz-background-size:4px;
+    -o-background-size:4px;
+    border-radius: 4px;
+}
+.meet button:hover{
+    color: aliceblue;
+    border: 2px solid #fff;
+}
+
+.work h3{
+    display: inline;
+    font-size: 22px;
+letter-spacing: 1px;
+color: rgb(65,61,75);
+font-family: "Playfair Display";
+font-weight: bold;
+}
+.work a{
+    display: inline;
+    font-size: 22px;
+letter-spacing: 1px;
+color: rgb(65,61,75);
+font-family: "Roboto";
+font-weight: 1;
+float: right;
+}
+.work a:hover{ 
+    transition: 0.5s;
+color: #00e0d0;
+}
+.work-img{
+    margin: 20px auto;
+    width: 1330px;
+    height: 400px;
+}
+.img-work{
+    margin: 20px auto;
+    width: 1330px;
+    height: 400px;
+}
+.comanda{
+    height: 500px;
+    background-image: url(img/back4.png)    ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.work button{
+    transition: 0.5s;
+    margin: 50px auto;
+    width: 120px;
+    height: 40px; 
+    color: #00e0d0;
+    border: 2px solid #00e0d0;
+    background: none;
+    cursor: pointer;
+    -webkit-background-size:4px;
+    -moz-background-size:4px;
+    -o-background-size:4px;
+    border-radius: 4px;
+}
+.work button:hover{
+    color: black;
+    border: 2px solid black;
+}
+.work-butt{
+    text-align: center;
+}
+.comanda{
+    height: 600px;
+    text-align: center;
+}
+.skoba{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+.comanda p{
+    font-size: 16px;
+letter-spacing: 0px;
+line-height: 26px;
+color: rgb(255,255,255);
+font-family: "Playfair Display";
+text-align: center;
+}
+.comanda h3{
+    font-size: 14px;
+letter-spacing: 1px;
+line-height: 22px;
+color: rgb(255,255,255);
+font-family: "Roboto";
+font-weight: 800;
+text-align: center;
+} 
+.comanda h4{
+font-size: 13px;
+line-height: 22px;
+color: rgb(255,255,255);
+font-family: "Roboto";
+font-weight: 300;
+text-align: center;
+} 
+.img-strelka{
+    margin: 15px 0;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+.img-rab{
+    margin:0  20px;
+    width: 60px;
+    height: 60px;
+}
+.img-rab0{
+    margin: 10px 20px;
+    width: 80px;
+    height: 80px;
+}
+.contacts{
+    height: 680px;
+}
+.contactForm{
+    float: left;
+    width: 50%;
+    height: 680px;
+}
+.client{
+    float: left;
+    width: 45%;
+    margin-left: 40px;
+    height: 680px;
+}
+.contact h1{
+    font-size: 22px;
+letter-spacing: 1px;
+color: rgb(65,61,75);
+font-family: "Playfair Display";
+font-weight: bold;
+}
+.contact-inp{
+    font-size: 14px;
+letter-spacing: 1px;
+color: rgb(65,61,75);
+font-family: "Roboto";
+font-weight: 300;
+}
+.inp1{
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 460px;
+height: 45px;
+border: 1px solid #d2d2d2;
+}
+.inp2{
+     margin-top: 20px;
+    padding-left:  20px;
+    padding-bottom: 100px;
+    width: 460px;
+    height: 45px;
+    border: 1px solid #d2d2d2;
+
+}
+.contactForm  button{
+    transition: 0.5s;
+    margin: 30px auto;
+    width: 120px;
+    height: 40px; 
+    color: #00e0d0;
+    border: 2px solid #00e0d0;
+    background: none;
+    cursor: pointer;
+    -webkit-background-size:4px;
+    -moz-background-size:4px;
+    -o-background-size:4px;
+    border-radius: 4px;
+}
+.contactForm button:hover{
+    color: black;
+    border: 2px solid black;
+}
+.footer{
+    height: 400px;
+    background-image: url(img/back5.png)    ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.left{
+    float: left;
+    width: 30%;
+    height: 300px;
+}
+.left h1{
+    font-size: 50px;
+    display: inline-block;;
+    color: #00e0d0;
+   font-family: "Roboto";
+    margin: 0;
+}
+.left img{
+    margin-right: 5px;
+    width: 40px;
+    height: 55px;
+    margin-bottom:-13px;
+}
+.left p{
+   font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: rgb(255,255,255);
+font-family: "Roboto";
+font-weight: 300;
+}
+.center {
+    margin-left: 40px;
+    float: left;
+    width: 30%;
+    height: 300px;
+}
+.center h1{
+    font-size: 17px;
+letter-spacing: 1px;
+line-height: 26px;
+    margin-top: 30px;
+color: rgb(255,255,255);
+font-family: "Roboto";
+font-weight: 800;
+}
+.center p{
+    font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: rgb(255,255,255);
+font-family: "Roboto";
+font-weight: 300;
+}
+.center img{
+    margin-bottom: 50px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.phone{
+     margin-bottom: 0px;
+}
+.rigth{
+    float: left;
+    width: 30%;
+    height: 300px;
+    
+}
+.rigth h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+letter-spacing: 1px;
+line-height: 26px;
+color: rgb(255,255,255);
+font-family: "Roboto";
+font-weight: 800;
+}
+.rigth input{
+    width: 180px;
+height: 45px;
+border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #fff;
+    padding-left: 10px;
+}
+.img111{
+width: 30px;
+height: 45px;
+border: 1px solid #ffffff;
+    cursor: pointer;
+    transition: 0.5s
+}
+.img111:hover{
+width: 30px;
+height: 45px;
+    background: #fff;
+border: 1px solid #ffffff;
+    
+}
+.you{
+    width: 250;
+    height: 40px;
+}
+.
