@@ -1,0 +1,69 @@
+.chat{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background: #fffcfc;
+}
+.sms{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height: 100px;
+}
+input{
+    
+    margin: 20px;
+    padding-left: 10px;
+   border: 1px solid #cccccc; 
+   border-radius: 10px; 
+   background: #ffffff !important; 
+   outline: none;
+   height: 40px; 
+   width: 70%;
+   color: black; 
+   font-size: 15px; 
+   font-family: Tahoma; 
+}
+.send{
+    position: absolute;
+    margin-top: 16px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: black;
+}
+.send:hover{
+     background: #fff;
+}
+.smss{
+    overflow: auto;
+    margin:  20px;
+    position: relative;
+    width: 85%;
+    height: 400px;
+    background: #d2d2d2;
+}
+.soobchenie{
+    word-wrap: break-word;
+	overflow-wrap: break-word;
+    position: inherit;
+    padding: 10px ;
+    background: white;
+    left: 50px;
+    border-radius: 20px;
+    width: 300px;
+    
+}
+
+.left{
+    width: 50%;
+    height: 1000px;
+    float:left;
+}
+.tight{
+    width: 50%;
+    height: 1000px;
+    float:left;
+}
